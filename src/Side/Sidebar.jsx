@@ -122,7 +122,7 @@ const Sidebar = () => {
                             </li>
                         </li>
                         <li>
-                            <NavLink to={"/layout/home"} className="link mt-[-30px] hover:bg-gray-500 rounded p-1 flex gap-8 hover:text-white  font-semibold">
+                            <NavLink to={"/layout/calender"} className="link mt-[-30px] hover:bg-gray-500 rounded p-1 flex gap-8 hover:text-white  font-semibold">
                                 <AiOutlineAppstore size={23} className="mt-1 min-w-max" />
                                 Calender
                             </NavLink>

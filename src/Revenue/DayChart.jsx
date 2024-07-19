@@ -144,8 +144,8 @@ const DayChart = () => {
             </span>
           </div>
             <div className="">
-              <p className="font-semibold text-xl text-blue-800">Total Revenue</p>
-              <p className="text-sm font-medium text-gray-500">12.04.2024 - 12.07.2024</p>
+              <p className="font-semibold text-xl text-blue-800 dark:text-white">Total Revenue</p>
+              <p className="text-sm font-medium text-gray-500 dark:text-white">12.04.2024 - 12.07.2024</p>
             </div>
           </div>
           <div className="flex gap-2 min-w-47.5">
@@ -155,8 +155,8 @@ const DayChart = () => {
             </span>
           </div>
             <div className="">
-              <p className="font-semibold text-xl text-green-800">Total Sales</p>
-              <p className="text-sm text-gray-500 font-medium">12.04.2024 - 12.07.2024</p>
+              <p className="font-semibold text-xl text-green-800 dark:text-white">Total Sales</p>
+              <p className="text-sm text-gray-500 font-medium dark:text-white">12.04.2024 - 12.07.2024</p>
             </div>
           </div>
         </div>

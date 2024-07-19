@@ -12,7 +12,7 @@ const Loader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-      navigate('/layout');
+      navigate('/layout/home');
     }, 3000);
 
     return () => clearTimeout(timer);

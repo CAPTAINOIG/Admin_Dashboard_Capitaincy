@@ -12,7 +12,7 @@ const CurrentRevenue = () => {
     }
 
     return (
-        <div className='bg-white dark:bg-gray-700 shadow-lg p-3 w-[60%] mx-6'>
+        <div className='bg-white dark:bg-gray-500 shadow-lg h-[480px] mb-5 p-3 pb-5 w-[92%] lg:w-[60%] md:w-[60%] lg:mx-2 md:mx-2 mx-4'>
             <div className=' flex gap-2 justify-end'>
                 <button onClick={() => handleRevenue('day')} className={`px-2 text-white rounded transition-all duration-500 ease-in-out transform ${revenue === 'day' ? 'bg-blue-600 border-blue-600 scale-105' : 'bg-gray-800'}`}
                 >Day</button>

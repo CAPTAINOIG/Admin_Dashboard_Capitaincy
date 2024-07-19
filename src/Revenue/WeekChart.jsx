@@ -123,12 +123,12 @@ const WeekChart = () => {
     series: [
       {
         name: 'Product One',
-        data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30, 45],
+        data: [33, 21, 29, 37, 23, 32, 47, 31, 54, 32, 40, 55],
       },
 
       {
         name: 'Product Two',
-        data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39, 51],
+        data: [40, 35, 46, 40, 55, 45, 74, 62, 69, 46, 49, 61],
       },
     ],
   });
@@ -144,8 +144,8 @@ const WeekChart = () => {
             </span>
           </div>
             <div className="">
-              <p className="font-semibold text-xl text-blue-800">Total Revenue</p>
-              <p className="text-sm font-medium text-gray-500">12.04.2024 - 12.07.2024</p>
+              <p className="font-semibold text-xl text-blue-800 dark:text-white">Total Revenue</p>
+              <p className="text-sm font-medium text-gray-500 dark:text-white">12.04.2024 - 12.07.2024</p>
             </div>
           </div>
           <div className="flex gap-2 min-w-47.5">
@@ -155,8 +155,8 @@ const WeekChart = () => {
             </span>
           </div>
             <div className="">
-              <p className="font-semibold text-xl text-green-800">Total Sales</p>
-              <p className="text-sm text-gray-500 font-medium">12.04.2024 - 12.07.2024</p>
+              <p className="font-semibold text-xl text-green-800 dark:text-white">Total Sales</p>
+              <p className="text-sm text-gray-500 font-medium dark:text-white">12.04.2024 - 12.07.2024</p>
             </div>
           </div>
         </div>

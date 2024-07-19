@@ -4,6 +4,8 @@ import CurrentRevenue from '../Revenue/CurrentRevenue'
 import ProfitChart from '../Profit/ProfitChart'
 import MapOne from '../component/Maptable/MapOne'
 import Analytics from '../component/Maptable/Analytics'
+import Channels from '../Topchannels/Channels'
+import UserChats from '../Chats/UserChats'
 
 const Home = () => {
   return (
@@ -16,6 +18,10 @@ const Home = () => {
         <div className='lg:flex md:flex'>
         <Analytics/>
         <MapOne/>
+        </div>
+        <div className='lg:flex md:flex'>
+        <Channels/>
+        <UserChats/>
         </div>
     </div>
   )

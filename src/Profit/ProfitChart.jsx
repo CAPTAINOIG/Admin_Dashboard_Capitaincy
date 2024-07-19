@@ -80,7 +80,7 @@ const ProfitChart = () => {
   });
 
   return (
-    <div className="bg-white dark:bg-gray-700 shadow-lg p-3 w-[33%] xl:col-span-4">
+    <div className="bg-white dark:bg-gray-500 shadow-lg p-5 lg:mx-2 md:mx-2 mx-4 h-[480px] lg:w-[38%] w-[92%] md:w-[33%] xl:col-span-4">
       <div className="mb-4 justify-between gap-4 sm:flex">
         <div>
           <h4 className="text-xl font-semibold text-black dark:text-white">
@@ -92,12 +92,12 @@ const ProfitChart = () => {
             <select
               name="#"
               id="#"
-              className="relative z-20 inline-flex appearance-none bg-transparent py-1 pl-3 pr-8 text-sm font-medium outline-none"
+              className="relative z-20 inline-flex dark:text-gray-300 cursor-pointer appearance-none bg-transparent py-1 pl-3 pr-8 text-sm font-medium outline-none"
             >
               <option value="">This Week</option>
               <option value="">Last Week</option>
             </select>
-            <span className="absolute top-1/2 right-3 z-10 -translate-y-1/2">
+            <span className="absolute top-1/2 right-3 z-10 -translate-y-1/2 dark:text-white">
               <svg
                 width="10"
                 height="6"
