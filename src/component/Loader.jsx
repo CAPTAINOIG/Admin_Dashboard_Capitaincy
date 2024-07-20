@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import loaderimage from '../assets/image/loaderimage.gif';
 import Rootlayout from '../layout/Rootlayout';
+import Home from '../pages/Home';
 
 
 
@@ -30,7 +31,7 @@ const Loader = () => {
         </div>
       ) : (
         <div>
-          <Rootlayout/>
+          <Home/>
         </div>
       )}
     </div>
