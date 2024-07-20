@@ -52,7 +52,7 @@ const ChartThree = () => {
   });
 
   return (
-    <div className=" bg-white dark:bg-gray-500 shadow-lg h-[480px] mb-5 p-8 pb-5 w-[92%] lg:w-[60%] md:w-[60%] lg:mx-2 md:mx-6 mx-4 lg:mt-0 md:mt-0 mt-5">
+    <div className=" bg-white dark:bg-gray-500 shadow-lg h-[480px] mb-7 p-8 pb-5 w-[92%] lg:w-[60%] md:w-[60%] lg:mx-2 md:mx-6 mx-4 lg:mt-0 md:mt-0 mt-5">
       <div className="mb-3 justify-between gap-4 sm:flex">
         <div>
           <h5 className="text-xl font-semibold text-black dark:text-white">

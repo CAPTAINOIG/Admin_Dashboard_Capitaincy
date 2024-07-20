@@ -10,19 +10,19 @@ import UserChats from '../Chats/UserChats'
 const Home = () => {
   return (
     <div className='lg:ms-[22%]'>
-        <Card/>
-        <div className='lg:flex md:flex'>
-        <CurrentRevenue/>
-        <ProfitChart/>
-        </div>
-        <div className='lg:flex md:flex'>
-        <Analytics/>
-        <MapOne/>
-        </div>
-        <div className='lg:flex md:flex'>
-        <Channels/>
-        <UserChats/>
-        </div>
+      <Card />
+      <div className='lg:flex md:flex'>
+        <CurrentRevenue />
+        <ProfitChart />
+      </div>
+      <div className='lg:flex md:flex'>
+        <Analytics />
+        <MapOne />
+      </div>
+      <div className='lg:flex md:flex mb-6'>
+        <Channels />
+        <UserChats />
+      </div>
     </div>
   )
 }
