@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 const Calendar = () => {
   return (
     <>
-      
       {/* <!-- ====== Calendar Section Start ====== --> */}
       <div className="lg:ms-[22%] lg:mx-2 md:mx-6 mx-4 p-5 rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-gray-700">
     <div className='flex justify-between'>

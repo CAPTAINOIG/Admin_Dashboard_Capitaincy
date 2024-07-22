@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from '../pages/Home'
 import Calender from '../pages/Calender'
 import UserApproval from '../approval/UserApproval'
+import Profile from '../pages/Profile'
 
 
 
@@ -27,6 +28,7 @@ const Rootlayout = ({children}) => {
         <Route path='/home' element={<Home/>}/>
         <Route path='/calender' element={<Calender/>}/>
         <Route path='/approval' element={<UserApproval/>}/>
+        <Route path='/profile' element={<Profile/>}/>
       </Routes>
     </div>
   )
